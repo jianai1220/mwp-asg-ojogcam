@@ -129,7 +129,7 @@ export default function App() {
         <section id="contact" className="section">
           <div className="frame">
             <p className="frame__eyebrow">Get In Touch</p>
-            <h2>Be first on the frame.</h2>
+            <h2>Be the first to start shooting.</h2>
             <p>Join the early access list and we'll reach out before public launch.</p>
             <a className="email-link" href="mailto:hello@ojogcam.tech">hello@ojogcam.tech →</a>
 

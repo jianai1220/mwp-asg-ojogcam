@@ -68,12 +68,12 @@ function Camera({ scrollRef }) {
       group.current.rotation.x = 0.08 + Math.sin(t * 0.35) * 0.03 + scrollNorm * 0.18
       group.current.rotation.z = Math.sin(t * 0.18) * 0.02 + scrollNorm * 0.05
       group.current.position.y = 0.05 + Math.sin(t * 1.1) * 0.04 - scrollNorm * 0.05
-      group.current.position.x = 0.05
+      group.current.position.x = 0
     }
   })
 
   return (
-    <group ref={group} scale={3} position={[10, -5, 200]}>
+    <group ref={group} scale={3} position={[0.05, 0.05, 200]}>
       <Center>
         <primitive object={model} />
       </Center>
